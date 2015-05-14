@@ -23,7 +23,7 @@ type (
 		// wrong with the request as a whole, (2) it can point to a
 		// specific problem with a particular input field, or (3) it
 		// can span multiple related input fields.
-		FieldNames []string `json:"fieldNames,omitempty"`
+		FieldNames []string `json:"fields,omitempty"`
 
 		// The classification is like an error code, convenient to
 		// use when processing or categorizing an error programmatically.
